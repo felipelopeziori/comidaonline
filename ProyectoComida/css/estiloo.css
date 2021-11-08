@@ -1,0 +1,65 @@
+body {
+    background-image: url(electronico.jpg);
+    background-size: 100vn 100vh;
+    background-attachment: fixed;
+
+    font-family: monospace;
+}
+
+
+ 
+form {
+    margin:0 auto;
+    width:450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h2{
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ 
+input, textarea {
+    width:100%;   
+    padding:7px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    font-size:17px;
+    border: nome;
+}
+ 
+textarea {
+
+    min-height:100px;
+    max-height:200px;
+    max-width: 100%;
+}
+ 
+#boton{
+background: #31384a;
+color: #fff;
+padding: 20px;
+ }
+#boton: hover {
+cursor:pointer;
+}
+
+@media (max-width:480px){
+form{
+    width: 100%;
+}
+}
+
+h1{
+text-align: center;
+color: #fff;
+font-size:48px ;
+background: rgba(0, 0, 0, 0.4);
+margin-top: 20px;
+}
