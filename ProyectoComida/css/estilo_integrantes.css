@@ -1,0 +1,96 @@
+:root{
+    --red:#ff2e63;
+    --black:#252a34;
+    --blue:#08d9d6;
+    --white: #eaeaea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#fff;
+    overflow-x: hidden;
+    font-family: 'Lexend', sans-serif;
+}
+
+/**testimonioos**/
+.testimonios{
+    width: 100%;
+    margin-top: 120px;
+}
+.testimonios .testimonios-title{
+width: 50%;
+margin:auto;
+text-align: center;
+}
+.testimonios .testimonios-title h2{
+    font-size: 50px;
+    color: var(--black);
+    font-weight: normal;
+    margin-bottom: 10px; 
+}
+.testimonios .testimonios-title hr{
+    widows: 60px;
+    margin:auto;
+    height:3px;
+    background: var(--black);
+    border:none;
+}
+.testimonios .box-testimonios{
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonios .box-testimonios .card-testimonio{
+width: 45%;
+margin: 20px;
+}
+.testimonios .box-testimonios .card-testimonio .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonios .box-testimonios .card-testimonio .card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.testimonios .box-testimonios .card-testimonio .testimonio-text{
+    width:100%;
+    border:2px solid var(--red);
+    margin-top: 30px;
+    padding:10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:200ms;
+
+}
+.testimonios .box-testimonios .card-testimonio .testimonio-text h4{
+    color: var(--red);
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition:200ms; 
+}
+.testimonios .box-testimonios .card-testimonio .testimonio-text p{
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    font-size: 19px;
+}
+.testimonios .box-testimonios .card-testimonio .testimonio-text:hover{
+    border:2px solid var(--blue); 
+}
+.testimonios .box-testimonios .card-testimonio .testimonio-text:hover h4{
+    color: var(--blue);
+}
+
+
